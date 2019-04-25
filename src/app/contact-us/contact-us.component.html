@@ -1,0 +1,77 @@
+
+<div class="banner">
+  <div class="intro-box">
+    <h1>
+      Contact us
+    </h1>
+  </div>
+</div>
+<div class="content">
+    <img  class="header-image"  src="assets/images/contact-us.svg" alt="">
+  <p>
+    We want to help you with our services. Please let us know how
+    we can make your day more productive and stress-free. You can request a
+    quote or ask us questions… .
+  </p>
+ 
+  <div class="flex">
+    <form [formGroup]="rForm" (ngSubmit)="send(rForm.value)" class="box form-group">
+      <div class="controls">
+        <label for="">Name</label> <br />
+        <input type="text" formControlName="name" />
+        <div class="alert" *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">
+          Name is requried
+        </div>
+      </div>
+      <div class="controls">
+        <label for="">Email</label> <br />
+        <input type="email" formControlName="email" />
+        <div class="alert" *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">
+          Email is requried
+        </div>
+      </div>
+      <div class="controls">
+        <label for="">Phone No</label> <br />
+        <input type="text" formControlName="cell" />
+        <div class="alert" *ngIf="!rForm.controls['cell'].valid && rForm.controls['cell'].touched">
+          Cell number is requried, for easy follow up.
+
+        </div>
+      </div>
+      <div class="controls">
+        <label for="">Message</label> <br />
+        <textarea formControlName="message"></textarea>
+        <div class="alert" *ngIf="!rForm.controls['message'].valid && rForm.controls['message'].touched">
+          Your message must be at least 15 characters
+        </div>
+      </div>
+      <div class="controls">
+        <input type="submit" value="Send" class="button" [disabled]="!rForm.valid" />
+      </div>
+    </form>
+    <div *ngIf="showSucces" class="alert showSucces">
+      Thank you! Your message has been successfully sent. We will contact you very soon!
+    </div>
+    <div class="box info">
+      <h2>Contact Info</h2>
+      <p><i class="fa fa-phone" aria-hidden="true"></i> 034 413 1213</p>
+      <p>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        nhlekoseth258@gmail.com
+      </p>
+      <p>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        P.O. Box 2124, PONGOLA 3170
+      </p>
+      <p>
+        <a href="https://www.facebook.com/sehlatrading" target="_blank">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/sehlatrading" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

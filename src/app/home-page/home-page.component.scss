@@ -1,0 +1,145 @@
+.home {
+  background-image: linear-gradient(rgba(121, 121, 0, 0.37), rgba(90, 90, 9, 0.376)), url(../../assets/images/Group6.svg);
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -2rem;
+  padding: 6%;
+  box-sizing: border-box;
+  animation: slide 120s ease-in-out infinite;
+
+  @media only screen and (max-width: 600px) {
+    animation: none;
+    padding: 0;
+    height: 50vh;
+    margin-top: 0;
+
+
+  }
+
+
+  .intro-box {
+    width: 60%;
+    // margin: 2rem auto;
+    background: rgba(0, 0, 0, 0.513);
+    padding: 2%;
+    box-sizing: border-box;
+    // box-shadow: 1px 2px 3px rgb(0, 0, 0);
+    height: 100%;
+    position: relative;
+
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.513);
+
+    }
+
+
+    h1 {
+      color: #F1C40F;
+      animation: slideFromLeft 1s ease-out .5s;
+      animation-fill-mode: backwards;
+
+
+      @media only screen and (max-width: 600px) {
+
+        font-size: 1.6em;
+        /* background: red; */
+        width: 80%;
+        margin-left: 2rem;
+        margin-top: 4rem;
+      }
+    }
+
+    p {
+      color: #fff;
+      width: 100%;
+      animation: slideFromRight 1s ease-out 1s;
+      animation-fill-mode: backwards;
+
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+
+    a {
+      background: #F1C40F;
+      color: #071F43;
+      text-transform: uppercase;
+      float: right;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 1%;
+      width: 10rem;
+      display: block;
+      margin-bottom: 2rem;
+      text-align: center;
+      animation: anumationFaceIn 1s ease-out 2s;
+      animation-fill-mode: backwards;
+
+      &:hover {
+        background: rgb(161, 130, 5);
+        color: rgb(232, 234, 236);
+
+
+      }
+    }
+  }
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: 50% auto;
+  padding: 4%;
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+    padding: 1%;
+    width: 100%;
+  }
+
+
+  p {
+    text-align-last: left;
+    padding: 2%;
+    width: 90%;
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      padding: .5%;
+
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+    background-size: 100%;
+  }
+
+  50% {
+    background-position: -60px 0;
+    background-size: 180%;
+
+  }
+
+  100% {
+    background-position: 0 0;
+    background-size: 100%;
+
+  }
+}
+
+.header-image {
+  width: 60%;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+    margin-top: 2rem;
+  }
+}

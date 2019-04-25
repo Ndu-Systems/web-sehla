@@ -1,0 +1,54 @@
+<div class="footer">
+  <div class="contact">
+    <h1>
+      Let us connect...
+    </h1>
+    <ul>
+      <li>
+        <img src="assets/images/map.svg" alt="">
+        <span>
+          P.O. Box 2124, PONGOLA 3170
+        </span>
+
+      </li>
+      <li>
+        <img src="assets/images/mobile-alt-solid.svg" alt="">
+        <span>
+          034 4131213
+        </span>
+
+      </li>
+      <li>
+        <img src="assets/images/envelope-regular.svg" alt="">
+        <span>
+          nhlekoseth258@gmail.com
+        </span>
+
+      </li>
+    </ul>
+  </div>
+  <div class="services">
+    <h1>
+      Our services
+    </h1>
+    <ul>
+      <li>Building construction;</li>
+      <li>Civil works i.e. roads, bridge, storm water, sewer lines etc</li>
+      <li>General repairs to buildings...</li>
+      <li><a routerLink="our-services">More</a></li>
+    </ul>
+  </div>
+
+  <div class="form">
+    <h1>
+      Let get back to you ..
+    </h1>
+
+    <div class="form-call-back">
+      <input type="text" [(ngModel)]="name" placeholder="Your name...">
+      <input type="email" [(ngModel)]="email" placeholder="Your email...">
+      <input type="text" [(ngModel)]="cell" placeholder="Your phone...">
+      <button (click)="send()">Send</button>
+    </div>
+  </div>
+</div>

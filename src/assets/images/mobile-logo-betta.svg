@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="263" height="62" viewBox="0 0 263 62">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="mobile-logo-betta" transform="translate(5 -16)">
+    <text id="SEHLA_TRADING_CC" data-name="SEHLA TRADING CC" transform="translate(52 35)" fill="#f1c40f" font-size="15" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="0" y="15">SEHLA TRADING CC</tspan></text>
+    <g id="Group_11" data-name="Group 11">
+      <g transform="matrix(1, 0, 0, 1, -5, 16)" filter="url(#Ellipse_1)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="22" cy="22" r="22" transform="translate(9 6)" fill="#05275a"/>
+      </g>
+      <g id="Group_10" data-name="Group 10" transform="translate(-73 -381.685)">
+        <g id="logo" transform="translate(83.952 414.146)">
+          <path id="Path_2" data-name="Path 2" d="M-2917.6-1217.684v-2l4.612-1,.325-3.606,4.818-.931.116,7.534Z" transform="translate(2917.602 1235.061)" fill="#f1c40f"/>
+          <path id="Path_4" data-name="Path 4" d="M-2875.371-1285.135h7.34v-6.759l-1.039-.24v-2.755l-2.4-1.293v-6.3h-.65v5.39l-1.429.479v2.635l-1.819.814v8.029Z" transform="translate(2886.858 1302.482)" fill="#f1c40f"/>
+          <path id="Path_6" data-name="Path 6" d="M-2807.022-1200.41l3.053,2.187v6.3l2.793,1.949v5.668h-6.227Z" transform="translate(2828.947 1201.655)" fill="#f1c40f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

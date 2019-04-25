@@ -1,0 +1,9 @@
+.main-body {
+  -webkit-box-shadow: 18px 14px 100px 25px rgba(17, 17, 17, 0.73);
+  -moz-box-shadow: 18px 14px 100px 25px rgba(17, 17, 17, 0.73);
+  box-shadow: 18px 14px 100px 25px rgba(17, 17, 17, 0.73);
+  position: relative;
+  @media only screen and (max-width: 600px) {
+    box-shadow: none;
+  }
+}

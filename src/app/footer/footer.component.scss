@@ -1,0 +1,122 @@
+.footer {
+  background: #071f43;
+  padding: 2%;
+  box-sizing: border-box;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 33% 33% auto;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+    padding: 3%;
+    text-align: left;
+  }
+
+  .contact {
+    border-right: 1px solid rgba(241, 196, 15, 0.561);
+    padding-right: 2rem;
+
+    ul {
+      list-style: none;
+
+      li {
+        padding: 1rem;
+        @media only screen and (max-width: 600px) {
+          padding: 1rem 0;
+        }
+
+        img {
+          width: 1rem;
+        }
+
+        span {
+          color: #fff;
+          padding-left: 1rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .services {
+    border-right: 1px solid rgba(241, 196, 15, 0.561);
+    padding: 0 2rem;
+
+    ul {
+      list-style: none;
+
+      li {
+        padding: 1rem;
+        @media only screen and (max-width: 600px) {
+          padding: 1rem 0;
+        }
+
+        a {
+          background: #f1c40f;
+          color: #071f43;
+          text-transform: uppercase;
+          float: right;
+          text-decoration: none;
+          font-weight: 600;
+          padding: 1%;
+          width: 10rem;
+          display: block;
+          margin-bottom: 2rem;
+          text-align: center;
+
+          @media only screen and (max-width: 600px) {
+            float: none;
+          }
+
+          &:hover {
+            background: rgb(161, 130, 5);
+            color: rgb(232, 234, 236);
+          }
+        }
+
+        span {
+          color: #fff;
+          padding-left: 1rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .form {
+    padding: 0 2rem;
+
+    .form-call-back {
+      input {
+        display: block;
+        margin: 1rem 0;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.1rem;
+        @media only screen and (max-width: 600px) {
+          width: 80%;
+        }
+      }
+
+      button {
+        background: #f1c40f;
+        color: #071f43;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 1%;
+        width: 6rem;
+        display: block;
+        margin-bottom: 2rem;
+        text-align: center;
+        border: none;
+        border-radius: 0.1rem;
+
+        // margin-left: 5rem;
+
+        &:hover {
+          background: rgb(161, 130, 5);
+          color: rgb(232, 234, 236);
+        }
+      }
+    }
+  }
+}

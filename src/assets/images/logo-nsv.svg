@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="391.039" height="181.264" viewBox="0 0 391.039 181.264">
+  <defs>
+    <filter id="Path_7" x="0" y="0" width="391.039" height="181.264" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.29"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="logo-nsv" transform="translate(7.5 4.5)">
+    <g transform="matrix(1, 0, 0, 1, -7.5, -4.5)" filter="url(#Path_7)">
+      <path id="Path_7-2" data-name="Path 7" d="M0,0H364.039L291,154.264H0Z" transform="translate(7.5 4.5)" fill="#071f43"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(17 -349)">
+      <g id="logo" transform="translate(-30 263)">
+        <path id="Path_1" data-name="Path 1" d="M-2922.019-1162.541v-18.577l15.872-9.485v-28.26l18.195-10.839v6.129l-11.391,8.71-1.161,25.937-14.9,10.259,1.307,16.126Z" transform="translate(3018 1346)" fill="#071f43"/>
+        <path id="Path_2" data-name="Path 2" d="M-2917.6-1162.541v-16.609l13.743-8.323.968-30,14.358-7.743.346,62.677Z" transform="translate(3019 1346)" fill="#f1c40f"/>
+        <path id="Path_3" data-name="Path 3" d="M-2880.791-1163.5v-66.2l6-5.42.968-23.228,8.611-6.388v7.549l-4.159,1.936v21.679l-5.42,6,.968,64.069Z" transform="translate(3015 1347)" fill="#071f43"/>
+        <path id="Path_4" data-name="Path 4" d="M-2875.371-1218.034h21.873v-32.9l-3.1-1.166v-13.411l-7.162-6.3v-30.669h-1.936v26.238l-4.258,2.332v12.828l-5.42,3.965v39.085Z" transform="translate(3015 1401.724)" fill="#f1c40f"/>
+        <path id="Path_5" data-name="Path 5" d="M-2811.689-1203.959v50.52h7.224l-.29-46.234Z" transform="translate(2978 1337)" fill="#071f43"/>
+        <path id="Path_6" data-name="Path 6" d="M-2806.269-1200.41l9.1,6.516v18.776l8.323,5.807v16.89H-2807.4Z" transform="translate(2977 1336)" fill="#f1c40f"/>
+        <text id="SEHLA_TRADING_CC" data-name="SEHLA TRADING CC" transform="translate(67 184)" fill="#f1c40f" font-size="15" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="0" y="15">SEHLA TRADING CC</tspan></text>
+        <text id="construction_solutions" data-name="construction solutions" transform="translate(52 200)" fill="#fff" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="17">construction solutions</tspan></text>
+        <text id="construction_solutions-2" data-name="construction solutions" transform="translate(52 200)" fill="#fff" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="17">construction solutions</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

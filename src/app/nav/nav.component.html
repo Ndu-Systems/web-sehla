@@ -1,0 +1,68 @@
+<div class="nav">
+  <div class="logo">
+    <a routerLink="">
+      <img src="assets/images/logo-nsv.svg" alt="">
+    </a>
+  </div>
+  <div class="menu">
+    <div class="top">
+      <p>
+        <b>Phone : </b>
+        <span>072 463 6441</span>
+      </p>
+      <p>
+        <b>Email: </b>
+        <span>info@sehle-trading.co.za</span>
+      </p>
+    </div>
+    <ul>
+      <li>
+        <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+      </li>
+      <li>
+        <a routerLink="about-us" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">About us</a>
+      </li>
+      <li>
+        <a routerLink="our-services" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Our Services</a>
+      </li>
+      <li>
+        <a routerLink="contact-us" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<div class="mobile-nav">
+  <div class="logo">
+    <img src="../../assets/images/mobile-logo-betta.svg" alt="">
+  </div>
+  <div class="nav-btn">
+    <img src="../../assets/images/toggle-nav.svg" (click)="toggleNavMobile()" alt="">
+
+  </div>
+</div>
+
+<div class="mobile-menu-items" *ngIf="toggleMobileMenu">
+  <div class="close-btn">
+    <h1>
+      SEHLA TRADING CC
+    </h1>
+    <img src="../../assets/images/close-nav-btn.svg.svg" (click)="toggleNavMobile()" alt="">
+  </div>
+  <ul>
+    <li>
+      <a routerLink="" routerLinkActive="active" (click)="toggleNavMobile()"  [routerLinkActiveOptions]="{exact:true}">Home</a>
+    </li>
+    <li>
+      <a routerLink="about-us" routerLinkActive="active" (click)="toggleNavMobile()"  [routerLinkActiveOptions]="{exact:true}">About us</a>
+    </li>
+    <li>
+      <a routerLink="our-services" routerLinkActive="active" (click)="toggleNavMobile()"  [routerLinkActiveOptions]="{exact:true}">Our Services</a>
+    </li>
+    <li>
+      <a routerLink="contact-us" routerLinkActive="active" (click)="toggleNavMobile()"  [routerLinkActiveOptions]="{exact:true}">Contact Us</a>
+    </li>
+  </ul>
+</div>
