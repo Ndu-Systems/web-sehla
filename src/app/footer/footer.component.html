@@ -49,6 +49,11 @@
       <input type="email" [(ngModel)]="email" placeholder="Your email...">
       <input type="text" [(ngModel)]="cell" placeholder="Your phone...">
       <button (click)="send()">Send</button>
+      <div class="message">
+        <p>
+        {{message}}
+        </p>
+      </div>
     </div>
   </div>
 </div>

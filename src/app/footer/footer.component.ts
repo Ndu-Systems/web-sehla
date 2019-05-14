@@ -14,6 +14,7 @@ export class FooterComponent implements OnInit {
   cell: string = "";
   message: string = "Please call me back";
   showSucces: boolean;
+  messageInfo: string;
 
   constructor(private http: HttpClient) {
 
@@ -23,6 +24,7 @@ export class FooterComponent implements OnInit {
 
   send() {
     if(this.email == ""){
+      this.messageInfo  = "Email is required";
       return false;
     }
     let cont = {

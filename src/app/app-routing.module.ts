@@ -1,3 +1,4 @@
+import { WorkShowcaseComponent } from './work-showcase/work-showcase.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { NgModule } from "@angular/core";
@@ -22,6 +23,10 @@ const routes: Routes = [
     path: "our-services",
     component: OurServicesComponent
   },
+  {
+    path: 'work-showcase',
+    component: WorkShowcaseComponent
+  }
 ];
 
 @NgModule({
